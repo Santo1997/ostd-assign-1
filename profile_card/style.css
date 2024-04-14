@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border: 2px solid red;
+}
+
+.card_profile {
+  padding: 25px 45px;
+  height: 650px;
+  width: 500px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0px 5px 25px -12px rgba(0, 0, 0, 0.25);
+}
+.card_profile img {
+  width: 160px;
+  height: 160px;
+  border-radius: 100%;
+}
+.card_profile h1 {
+  color: black;
+  font-size: 2.2em;
+  margin-top: 20px;
+}
+.card_profile h2 {
+  color: gray;
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+.card_profile p {
+  color: gray;
+  font-size: 1.2em;
+}
+.card_profile ul {
+  margin: 30px 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+}
+.card_profile ul li {
+  font-size: 1.2em;
+}
+.card_profile ul li p:last-child {
+  color: black;
+  font-weight: bold;
+}
+.card_profile div {
+  display: grid;
+  grid-template-columns: repeat(2, 40%);
+  justify-content: space-around;
+  align-items: center;
+}
+.card_profile div button {
+  color: black;
+  cursor: pointer;
+  background: white;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+.card_profile div button:hover {
+  color: white;
+  background: black;
+}

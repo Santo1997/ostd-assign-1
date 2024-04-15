@@ -16,7 +16,7 @@
 
 .card_profile {
   padding: 25px 45px;
-  height: 650px;
+  height: 600px;
   width: 500px;
   text-align: center;
   border-radius: 15px;
@@ -29,39 +29,32 @@
 }
 .card_profile h1 {
   color: black;
-  font-size: 2.2em;
+  font-size: 2em;
   margin-top: 20px;
 }
 .card_profile h2 {
   color: gray;
-  font-size: 1.5em;
+  font-size: 1.3em;
   margin-bottom: 15px;
 }
 .card_profile p {
   color: gray;
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
-.card_profile ul {
-  margin: 30px 0;
-  list-style: none;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  justify-content: center;
+.card_profile h3 {
+  margin-top: 15px;
+  padding: 8px 0;
+  border-top: 2px solid black;
 }
-.card_profile ul li {
-  font-size: 1.2em;
-}
-.card_profile ul li p:last-child {
-  color: black;
-  font-weight: bold;
-}
-.card_profile div {
+
+.pro_info {
+  margin-top: 30px;
   display: grid;
   grid-template-columns: repeat(2, 40%);
   justify-content: space-around;
   align-items: center;
 }
-.card_profile div button {
+.pro_info button {
   color: black;
   cursor: pointer;
   background: white;
@@ -71,7 +64,7 @@
   border-radius: 10px;
   border: 2px solid black;
 }
-.card_profile div button:hover {
+.pro_info button:hover {
   color: white;
   background: black;
 }
